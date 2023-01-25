@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace AppplicationCore.Services
 {
-    internal class ServiceAutor : IServices
+    public class ServiceAutor : IServices
     {
         public IEnumerable<Autor> GetAutor()
         {

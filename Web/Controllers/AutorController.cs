@@ -1,4 +1,6 @@
-﻿using System;
+﻿using AppplicationCore.Services;
+using Infraestructure.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,6 +13,16 @@ namespace Web.Controllers
         // GET: Autor
         public ActionResult Index()
         {
+            IEnumerable<Autor> list = null;
+            try
+            {
+                IServices _serviceAutor = new ServiceAutor();
+                list = _serviceAutor.GetAutor();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
             return View();
         }
 
