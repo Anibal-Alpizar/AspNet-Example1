@@ -5,21 +5,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static AppplicationCore.Services.ServiceAutor;
 
 namespace AppplicationCore.Services
 {
-    public class ServiceAutor : IServices
-    {
-        public IEnumerable<Autor> GetAutor()
+        public class ServiceAutor : IServiceAutor
         {
-            IRepositoryAutor repository = new RepositoryAutor();
-            return repository.GetAutor();
+            public IEnumerable<Autor> GetAutor()
+            {
+                IRepositoryAutor repository = new RepositoryAutor();
+                return repository.GetAutor();
+            }
+
+            public Autor GetAutorById(int id)
+            {
+                IRepositoryAutor repository = new RepositoryAutor();
+                return repository.GetAutorById(id);
+            }
         }
 
-        public Autor GetAutorById(int id)
-        {
-            IRepositoryAutor repository = new RepositoryAutor();
-            return repository.GetAutorById(id);
-        }
-    }
 }

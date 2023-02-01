@@ -7,9 +7,10 @@ using System.Threading.Tasks;
 
 namespace AppplicationCore.Services
 {
-    public interface IServices
+    public interface IServiceAutor
     {
         Autor GetAutorById(int id);
+
         IEnumerable<Autor> GetAutor();
     }
 }

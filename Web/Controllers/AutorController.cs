@@ -13,17 +13,18 @@ namespace Web.Controllers
         // GET: Autor
         public ActionResult Index()
         {
-            IEnumerable<Autor> list = null;
+            IEnumerable<Autor> lista = null;
             try
             {
-                IServices _serviceAutor = new ServiceAutor();
-                list = _serviceAutor.GetAutor();
+                IServiceAutor _ServiceAutor = new ServiceAutor();
+                lista = _ServiceAutor.GetAutor();
             }
             catch (Exception)
             {
+
                 throw;
             }
-            return View();
+            return View(lista);
         }
 
         // GET: Autor/Details/5

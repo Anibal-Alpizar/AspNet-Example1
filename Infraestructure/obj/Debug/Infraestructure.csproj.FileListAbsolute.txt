@@ -10,3 +10,15 @@ C:\Users\Estudiante\source\repos\appEjemplo\Infraestructure\obj\Debug\Infraestru
 C:\Users\Estudiante\source\repos\appEjemplo\Infraestructure\obj\Debug\Infraestructure.csproj.CopyComplete
 C:\Users\Estudiante\source\repos\appEjemplo\Infraestructure\obj\Debug\Infraestructure.dll
 C:\Users\Estudiante\source\repos\appEjemplo\Infraestructure\obj\Debug\Infraestructure.pdb
+C:\Users\anibal\AspNet-example\Infraestructure\bin\Debug\Infraestructure.dll.config
+C:\Users\anibal\AspNet-example\Infraestructure\bin\Debug\Infraestructure.dll
+C:\Users\anibal\AspNet-example\Infraestructure\bin\Debug\Infraestructure.pdb
+C:\Users\anibal\AspNet-example\Infraestructure\bin\Debug\EntityFramework.dll
+C:\Users\anibal\AspNet-example\Infraestructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\anibal\AspNet-example\Infraestructure\bin\Debug\EntityFramework.xml
+C:\Users\anibal\AspNet-example\Infraestructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\anibal\AspNet-example\Infraestructure\obj\Debug\Infraestructure.csproj.AssemblyReference.cache
+C:\Users\anibal\AspNet-example\Infraestructure\obj\Debug\Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\anibal\AspNet-example\Infraestructure\obj\Debug\Infraestructure.csproj.CopyComplete
+C:\Users\anibal\AspNet-example\Infraestructure\obj\Debug\Infraestructure.dll
+C:\Users\anibal\AspNet-example\Infraestructure\obj\Debug\Infraestructure.pdb
